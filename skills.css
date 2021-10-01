@@ -1,0 +1,24 @@
+.image{
+    filter: blur(3px) contrast(80%);
+    position: relative;
+    z-index: -10;
+    width: 100%;
+    background-image: url("./purple.png");
+    
+}
+
+
+.skills{
+    float: center;
+    margin-top: -50%;
+    margin-left: 10%;
+    color: white;
+    font-size: 50px;
+}
+
+.footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
