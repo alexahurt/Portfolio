@@ -1,0 +1,92 @@
+.image{
+    filter: blur(3px) contrast(80%);
+    position: relative;
+    z-index: -10;
+    width: 100%;
+    background-image: url("./purple.png");
+    
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-auto-rows: auto;
+    grid-gap: -20rem;
+    float: center;
+    margin-top: -50%;
+    margin-left: 10%;
+}
+
+video {
+    max-width: 100%;
+    
+  }
+
+.card1 
+{
+    /* float: center;
+    margin-top: -50%;
+    margin-left: 20%; */
+    background-color: rgba(1, 20, 53, 0.493);
+    color: white;
+    box-shadow: 10px 5px 5px #2D2F45;
+    
+}
+    
+
+
+.card2 
+{
+    /* float: center;
+    margin-top: -14.3%;
+    margin-left: 40%; */
+    background-color: rgba(1, 20, 53, 0.493);
+    color: white;
+    box-shadow: 10px 5px 5px #2D2F45;
+}
+
+.card3
+{
+    /* float: center;
+    margin-top: -14.3%;
+    margin-left: 60%; */
+    background-color: rgba(1, 20, 53, 0.493);
+    color: white;
+    box-shadow: 10px 5px 5px #2D2F45;
+}
+
+.card4
+{
+    /* float: center;
+    margin-top: -14.3%;
+    margin-left: 60%; */
+    background-color: rgba(1, 20, 53, 0.493);
+    color: white;
+    box-shadow: 10px 5px 5px #2D2F45;
+}
+
+
+.card5
+{
+    /* float: center;
+    margin-top: -14.3%;
+    margin-left: 60%; */
+    background-color: rgba(1, 20, 53, 0.493);
+    color: white;
+    box-shadow: 10px 5px 5px #2D2F45;
+}
+.card6
+{
+    /* float: center;
+    margin-top: -14.3%;
+    margin-left: 60%; */
+    background-color: rgba(1, 20, 53, 0.493);
+    color: white;
+    box-shadow: 10px 5px 5px #2D2F45;
+}
+
+.footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
